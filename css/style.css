@@ -1,0 +1,70 @@
+#landingFrame {
+  color: white;
+  text-align: center;
+  margin-top: 20em;
+}
+
+#landingFrame h1 {
+  font-size: 70px;
+}
+
+#landingFrame h4 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#landingFrame hr {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 400px;
+  height: 2px;
+}
+
+.overviewFrame {
+  color: #363d4a;
+}
+
+.overviewFrame h3 {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.overviewFrame h6 {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.overviewFrame button {
+  background-color: #ccc;
+}
+
+.skillsForLife .circleImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.bgLightGray {
+  background-color: #f9f9f9;
+}
+
+.ourPartnersLogos ul li {
+  width: 155px;
+  height: 155px;
+  padding: 1em;
+  display: inline-block;
+}
+
+.ourPartnersLogos ul li img {
+  width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.ourPartnersLogos ul li img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+.skillForLifeGraph img {
+  width: 100%;
+}

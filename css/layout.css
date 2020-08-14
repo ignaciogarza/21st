@@ -1,0 +1,63 @@
+.container.vh25 {
+  min-height: 25vh;
+}
+
+.container.vh50 {
+  min-height: 50vh;
+}
+
+.container.vh75 {
+  min-height: 75vh;
+}
+
+.container.vh100 {
+  min-height: 90vh;
+}
+
+.container .columna1,
+.container .columna2,
+.container .columna3,
+.container .columna4 {
+  flex: 1;
+}
+
+.container.marginGlobal {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.buttonGray {
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.buttonGray a {
+  text-decoration: none;
+  background-color: #363d4a;
+  color: white;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.buttonWhite {
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.buttonWhite a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #363d4a;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.buttonGray.buttonRightFloat {
+  text-align: right;
+}
