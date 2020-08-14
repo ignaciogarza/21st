@@ -68,3 +68,25 @@
 .skillForLifeGraph img {
   width: 100%;
 }
+
+.skillListIndividualItems {
+  padding: 2em;
+}
+
+.skillListIndividualItems ul li {
+  list-style: none;
+  color: white;
+  padding: 0.4em;
+}
+
+.skillListIndividualItems ul li a {
+  color: yellow;
+}
+
+.subColumnasFlex .subColumna2 .imageSkillsCircle {
+  width: 250px;
+}
+
+.subColumnasFlex .subColumna2 .imageSkillsCircle img {
+  width: 100%;
+}

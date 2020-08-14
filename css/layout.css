@@ -21,6 +21,17 @@
   flex: 1;
 }
 
+.container .columna1 .subColumnasFlex {
+  display: flex;
+}
+
+.subColumnasFlex .subColumna1 {
+  flex: 1;
+}
+.subColumnasFlex .subColumna2 {
+  flex: 1;
+}
+
 .container.marginGlobal {
   margin-top: 3em;
   margin-bottom: 3em;
@@ -28,7 +39,7 @@
 
 .buttonGray {
   display: block;
-  text-align: center;
+  text-align: left;
   margin-top: 2em;
 }
 
@@ -44,7 +55,7 @@
 
 .buttonWhite {
   display: block;
-  text-align: center;
+  text-align: left;
   margin-top: 2em;
 }
 
@@ -60,4 +71,16 @@
 
 .buttonGray.buttonRightFloat {
   text-align: right;
+}
+
+.buttonGray.buttonCenterFloat {
+  text-align: center;
+}
+
+.buttonWhite.buttonRightFloat {
+  text-align: right;
+}
+
+.buttonWhite.buttonCenterFloat {
+  text-align: center;
 }
