@@ -47,7 +47,6 @@
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid red;
   display: block;
 }
 .container .columna1 .subColumnasFlex {
@@ -112,4 +111,28 @@
 
 .buttonWhite.buttonCenterFloat {
   text-align: center;
+}
+
+.titleOverTitle {
+  position: relative;
+}
+
+.titleOverTitle {
+  letter-spacing: 4px;
+}
+
+.titleOverTitle h5 {
+  font-size: 4em;
+  opacity: 0.2;
+  z-index: -1;
+  font-weight: bold;
+  color: #363d4a;
+}
+
+.titleOverTitle h6 {
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  padding-left: 30px;
+  color: #363d4a;
 }

@@ -98,24 +98,54 @@
   width: 100%;
 }
 
-.titleOverTitle {
-  position: relative;
+.secondColumnImage75vh {
+  min-height: 75vh;
 }
 
-.titleOverTitle {
-  letter-spacing: 4px;
+.secondColumnImage100vh {
+  min-height: 90vh;
 }
 
-.titleOverTitle h5 {
-  font-size: 4em;
-  opacity: 0.3;
-  z-index: -1;
-  font-weight: bold;
+.secondColumnImage75vh.ContactUsRegistation {
+  background-image: url("/images/contactus_register.png");
+  background-size: cover;
+  background-position: bottom center;
 }
 
-.titleOverTitle h6 {
-  z-index: 1;
-  position: absolute;
-  top: 30px;
-  padding-left: 30px;
+.secondColumnImage75vh.PartnersCoalitionBGImage {
+  background-image: url("/images/the_coalition_signature.png");
+  background-size: cover;
+  background-position: bottom left;
+}
+
+.secondColumnImage100vh.DisruptingBGImage {
+  background-image: url("/images/disrupting_education_whatTechCan.png");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.contactUs-logosRegistration {
+  width: 80%;
+}
+
+.contactUs-logosRegistration li {
+  list-style: none;
+  margin-top: 2em;
+}
+
+.contactUs-logosRegistration img {
+  width: 100%;
+}
+
+.documentImagesLaunch {
+  max-width: 60%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.documentImagesLaunch img {
+  width: 100%;
+  display: block;
 }
