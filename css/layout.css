@@ -97,6 +97,22 @@
   min-width: 200px;
 }
 
+.buttonNoBackgroundWhiteText {
+  display: block;
+  text-align: left;
+  margin-top: 2em;
+}
+
+.buttonNoBackgroundWhiteText a {
+  text-decoration: none;
+  border: 1px solid white;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  font-size: 14px;
+  min-width: 200px;
+}
+
 .buttonGray.buttonRightFloat {
   text-align: right;
 }

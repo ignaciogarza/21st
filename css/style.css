@@ -124,6 +124,28 @@
   background-position: bottom center;
 }
 
+.bgLaunchEventInReponse {
+  background-image: url("/images/Launch-event.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.bgContactUsBottomSection {
+  background-image: url("/images/bg_contactus_section_bottom.png");
+  background-size: cover;
+  background-position: right top;
+}
+
+.bgContactUsBottomSection i,
+.bgContactUsBottomSection a {
+  color: #f2da78;
+}
+
+.bgContactUsBottomSection img {
+  top: -50px;
+  display: block;
+  position: relative;
+}
 .contactUs-logosRegistration {
   width: 80%;
 }
@@ -148,4 +170,17 @@
 .documentImagesLaunch img {
   width: 100%;
   display: block;
+}
+
+.contactus-bottom-socialIcons ul {
+  margin: 0 0 0 1em;
+  padding: 0;
+}
+.contactus-bottom-socialIcons ul li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.contactus-bottom-socialIcons ul li a {
+  color: #f2da78;
 }
