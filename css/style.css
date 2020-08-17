@@ -76,11 +76,18 @@
 .skillListIndividualItems ul li {
   list-style: none;
   color: white;
-  padding: 0.4em;
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .skillListIndividualItems ul li a {
-  color: yellow;
+  color: white;
+}
+
+.skillListIndividualItems ul li a:hover {
+  color: #f2da78;
+  text-decoration: none;
 }
 
 .subColumnasFlex .subColumna2 .imageSkillsCircle {
@@ -89,4 +96,26 @@
 
 .subColumnasFlex .subColumna2 .imageSkillsCircle img {
   width: 100%;
+}
+
+.titleOverTitle {
+  position: relative;
+}
+
+.titleOverTitle {
+  letter-spacing: 4px;
+}
+
+.titleOverTitle h5 {
+  font-size: 4em;
+  opacity: 0.3;
+  z-index: -1;
+  font-weight: bold;
+}
+
+.titleOverTitle h6 {
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  padding-left: 30px;
 }

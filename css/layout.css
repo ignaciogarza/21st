@@ -21,6 +21,35 @@
   flex: 1;
 }
 
+.container .columna1 h1,
+.container .columna2 h1,
+.container .columna3 h1,
+.container .columna4 h1 {
+  font-size: 70px;
+}
+
+.container .columna1 h3,
+.container .columna2 h3,
+.container .columna3 h3,
+.container .columna4 h3 {
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.container .columna1 h5,
+.container .columna2 h5,
+.container .columna3 h5,
+.container .columna4 h5 {
+  line-height: 1.5;
+}
+
+.container-fluid .titleOverTitle {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: block;
+}
 .container .columna1 .subColumnasFlex {
   display: flex;
 }
