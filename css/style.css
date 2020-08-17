@@ -110,30 +110,91 @@
   background-image: url("/images/contactus_register.png");
   background-size: cover;
   background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
 .secondColumnImage75vh.PartnersCoalitionBGImage {
   background-image: url("/images/the_coalition_signature.png");
   background-size: cover;
   background-position: bottom left;
+  background-repeat: no-repeat;
 }
 
 .secondColumnImage100vh.DisruptingBGImage {
   background-image: url("/images/disrupting_education_whatTechCan.png");
   background-size: cover;
   background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.bgIndexMainSection {
+  background-image: url("/images/bg_indexMainSection.jpg");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bgAboutUsHeaderMainSection {
+  background-image: url("/images/bg_about_us_HeaderSection.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
 .bgLaunchEventInReponse {
   background-image: url("/images/Launch-event.png");
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .bgContactUsBottomSection {
   background-image: url("/images/bg_contactus_section_bottom.png");
   background-size: cover;
   background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bgHomeJoinTheInitiative {
+  background-image: url("/images/bg_home_jointheinitiative.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgAboutUsSkillsForLifeFullSection {
+  background-image: url("/images/bg_skillsforLifesection.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgAboutUsPartnersSections {
+  background-image: url("/images/bg_aboutUsOurPartnersSection.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgAboutUsWeBeliveInDisrupte {
+  background-image: url("/images/bg_aboutus_weBelieve_inDisruptiveInnovation.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgAboutCoalitionSection {
+  background-image: url("/images/bg_about_Coalition_section.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgAboutLetsWorkTogether {
+  background-image: url("/images/bg_about_letswortogether_section.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .bgContactUsBottomSection i,
