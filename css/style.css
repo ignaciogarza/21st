@@ -385,3 +385,23 @@ header a:hover {
   background-position: right bottom;
   background-repeat: no-repeat;
 }
+
+.newsItemColumn {
+  min-height: 300px;
+  vertical-align: top;
+}
+.newsItemColumn h5 {
+  min-height: 100px;
+  margin-top: 0.5em;
+}
+
+.newsItemColumn a {
+  color: #507ed2;
+  font-weight: bold;
+}
+
+.newsItemColumn .newsItemCategory span {
+  background-color: #363d2a;
+  color: #fff;
+  padding: 0.3em 1em;
+}
