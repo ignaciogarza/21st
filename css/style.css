@@ -1,3 +1,22 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+}
+
+header ul {
+  margin: 0;
+}
+
+header a {
+  color: #fff;
+}
+
+header a:hover {
+  color: #fff;
+}
+
 #landingFrame {
   color: white;
   text-align: center;
@@ -141,6 +160,48 @@
   background-repeat: no-repeat;
 }
 
+.bgDisruptingEducationMainSection {
+  background-image: url("/images/bg_DisruptingEducation_mainSection.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bgSolutionsMainSection {
+  background-image: url("/images/bg_SolutionsMainSection.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bgSkillsForLifeMainSection {
+  background-image: url("/images/bg_SkillsForLifeMainSection.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bgAssessCertifyMainSection {
+  background-image: url("/images/bg_AssessCertifyMainSection.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bgPartnersMainSection {
+  background-image: url("/images/bg_PartnersMainSection.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.bgContactUsMainSection {
+  background-image: url("/images/bg_ContactUsMainSection.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
 .bgLaunchEventInReponse {
   background-image: url("/images/Launch-event.png");
   background-size: cover;
@@ -244,4 +305,24 @@
 
 .contactus-bottom-socialIcons ul li a {
   color: #f2da78;
+}
+
+.tileItem {
+  flex: 1 0 25%;
+  position: relative;
+}
+
+.tileItem h3 {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+}
+
+.tileItem.tileDouble {
+  flex: 2 0 50%;
+}
+
+.tileItem.tileTriple {
+  flex: 3 0 75%;
 }
