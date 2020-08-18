@@ -3,6 +3,7 @@ header {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   top: 0;
+  z-index: 100;
 }
 
 header ul {
@@ -310,6 +311,8 @@ header a:hover {
 .tileItem {
   flex: 1 0 25%;
   position: relative;
+  min-height: 200px;
+  min-width: 200px;
 }
 
 .tileItem h3 {
@@ -325,4 +328,60 @@ header a:hover {
 
 .tileItem.tileTriple {
   flex: 3 0 75%;
+}
+
+.bgDigitalTile {
+  background-color: #363d4a;
+  background-image: url("/images/bg_tileDigital.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bgCitizenshipTile {
+  background-color: #363d4a;
+  background-image: url("/images/bg_tileCitizenship.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bgArtTile {
+  background-color: #526079;
+  background-image: url("/images/bg_tileArt.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgSportTile {
+  background-color: #616a7b;
+  background-image: url("/images/bg_tileSports.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bgBehaviorTile {
+  background-color: #616a7b;
+  background-image: url("/images/bg_tileBehavior.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bgMindfulnessTile {
+  background-color: #526079;
+  background-image: url("/images/bg_tileMindfulness.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bgEntrepreneurshipTile {
+  background-color: #363d4a;
+  background-image: url("/images/bg_tileEntrepreneurship.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
