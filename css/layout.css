@@ -21,6 +21,18 @@
   flex: 1;
 }
 
+.container .columnaUnaTresQuartos {
+  flex: 3 0 60%;
+}
+
+.container .columnaDosUnQuarto {
+  flex: 2 0 30%;
+  background-image: url("/images/bg_skills_for_life_skills_list_.jpg");
+  background-size: cover;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
 .container .columna1 h1,
 .container .columna2 h1,
 .container .columna3 h1,
@@ -127,6 +139,7 @@
   border-radius: 30px;
   font-size: 14px;
   min-width: 200px;
+  font-weight: bold;
 }
 
 .buttonGray.buttonRightFloat {
