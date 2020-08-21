@@ -124,6 +124,8 @@
   border-radius: 30px;
   font-size: 20px;
   min-width: 200px;
+  font-weight: bold;
+  margin-right: 1em;
 }
 
 .buttonNoBackgroundBlackText {
@@ -138,9 +140,10 @@
   color: #363d4a;
   padding: 0.8em 1.5em;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 20px;
   min-width: 200px;
   font-weight: bold;
+  margin-right: 1em;
 }
 
 .buttonGray.buttonRightFloat {
@@ -164,11 +167,8 @@
 }
 
 .titleOverTitle {
-  position: relative;
-}
-
-.titleOverTitle {
   letter-spacing: 4px;
+  position: relative;
 }
 
 .titleOverTitle h5 {
@@ -177,6 +177,7 @@
   z-index: -1;
   font-weight: bold;
   color: #363d4a;
+  line-height: 1 !important;
 }
 
 .titleOverTitle h6 {
@@ -185,6 +186,7 @@
   top: 30px;
   padding-left: 30px;
   color: #363d4a;
+  line-height: 1 !important;
 }
 
 .secondaryNavigation a {

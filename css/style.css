@@ -1,15 +1,24 @@
+.titleLarge30 {
+  font-size: 25px;
+  line-height: 1.2 !important;
+}
+
+.titleLarge30b {
+  font-size: 30px;
+  line-height: 1.2 !important;
+}
+
 .titleLarge40 {
   font-size: 40px;
-  line-height: 1.3 !important;
+  line-height: 1.1 !important;
 }
 
 .titleLarge45 {
   font-size: 45px;
 }
 
-.titleLarge30 {
-  font-size: 30px;
-  line-height: 1.3;
+.titleLarge60 {
+  font-size: 60px;
 }
 
 header {
@@ -470,7 +479,7 @@ header a:hover {
   min-height: 130px;
   margin-top: 0.5em;
   font-size: 25px;
-  line-height: 1.3 !important;
+  line-height: 1.1 !important;
 }
 
 .newsItemColumn a {
@@ -491,7 +500,7 @@ header a:hover {
 .publicationFrame h5 {
   color: #363d4a;
   font-weight: bold;
-  line-height: 1.3;
+  line-height: 1.1 !important;
 }
 
 .publicationFrame p {
@@ -503,7 +512,7 @@ header a:hover {
 }
 
 .publicationFrame img {
-  width: 150px;
+  width: 180px;
   display: block;
   margin: 0 auto;
 }
@@ -530,11 +539,36 @@ header a:hover {
 
 .oneOfFourSkills {
   flex: 2 0 50%;
-  height: 50vh;
+  height: 37.5vh;
   position: relative;
 }
 
 .oneOfFourSkills .textFourSkills {
   position: absolute;
   bottom: 10px;
+}
+
+.disruptingMagazinesTile {
+  flex: 1 0 25%;
+  height: 50vh;
+  min-width: 200px;
+  vertical-align: top;
+}
+
+.disruptingMagazinesTile .textDisrupting {
+  color: #363d4a;
+  text-align: top;
+}
+
+.disruptingMagazinesTile img {
+  width: 90%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.assessmentFrame {
+  flex: 1 0 25%;
+  height: 50vh;
+  min-width: 200px;
+  vertical-align: top;
 }
