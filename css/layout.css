@@ -27,7 +27,7 @@
 
 .container .columnaDosUnQuarto {
   flex: 2 0 30%;
-  background-image: url("/images/bg_skills_for_life_skills_list_.jpg");
+  background-image: url("../images/bg_skills_for_life_skills_list_.jpg");
   background-size: cover;
   background-position: bottom left;
   background-repeat: no-repeat;
