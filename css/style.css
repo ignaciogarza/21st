@@ -628,3 +628,16 @@ header a:hover {
 .ourPartnersLogosPartnersSection ul li img {
   width: 100%;
 }
+
+.videoPrincipal {
+  width: 450px;
+  height: 500px;
+  background: red;
+  position: relative;
+}
+
+.videoPrincipal iframe {
+  width: 100%;
+  min-width: 400px;
+  position: absolute;
+}
