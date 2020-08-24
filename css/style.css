@@ -539,7 +539,7 @@ header a:hover {
 }
 
 .oneOfFourSkills {
-  flex: 2 0 50%;
+  flex: 1 0 25%;
   height: 37.5vh;
   position: relative;
 }
@@ -596,6 +596,38 @@ header a:hover {
   position: relative;
 }
 .assessmentFrame.bgFrameTile04 {
+  background-image: url("../images/bg_test_pruebas_04.png");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.assessmentFrame.bgFrameSkill01 {
+  background-image: url("../images/bg_test_pruebas_04.png");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.assessmentFrame.bgFrameSkill02 {
+  background-image: url("../images/bg_test_pruebas_04.png");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.assessmentFrame.bgFrameSkill03 {
+  background-image: url("../images/bg_test_pruebas_04.png");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.assessmentFrame.bgFrameSkill04 {
   background-image: url("../images/bg_test_pruebas_04.png");
   background-size: cover;
   background-position: bottom center;
@@ -696,6 +728,29 @@ header a:hover {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
+}
+
+.videosLaunchEvent ul {
+  margin: 0;
+  padding: 0;
+}
+
+.videosLaunchEvent ul li {
+  display: inline-block;
+  width: 20%;
+  margin: 1em;
+  vertical-align: top;
+}
+
+.videosLaunchEvent ul li img {
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.videosLaunchEvent ul li p {
+  font-weight: bold;
 }
 
 .modal-body {
