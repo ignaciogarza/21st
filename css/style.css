@@ -1,5 +1,5 @@
 .titleLarge30 {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.2 !important;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .titleLarge40 {
-  font-size: 40px;
+  font-size: 34px;
   line-height: 1.1 !important;
 }
 
@@ -47,12 +47,12 @@ header a:hover {
 }
 
 #landingFrame h1 {
-  font-size: 130px;
+  font-size: 60px;
 }
 
 #landingFrame h4 {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 40px;
+  font-size: 50px;
 }
 
 #landingFrame hr {
