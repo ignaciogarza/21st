@@ -27,10 +27,6 @@
 
 .container .columnaDosUnQuarto {
   flex: 2 0 30%;
-  background-image: url("../images/bg_skills_for_life_skills_list_.jpg");
-  background-size: cover;
-  background-position: bottom left;
-  background-repeat: no-repeat;
 }
 
 .container .columna1 h1,
@@ -183,7 +179,7 @@
 .titleOverTitle h6 {
   z-index: 1;
   position: absolute;
-  top: 30px;
+  top: 20px;
   padding-left: 30px;
   color: #363d4a;
   line-height: 1 !important;

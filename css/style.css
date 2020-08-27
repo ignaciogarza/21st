@@ -10,7 +10,7 @@
 
 .titleLarge40 {
   font-size: 34px;
-  line-height: 1.1 !important;
+  line-height: 1.2 !important;
 }
 
 .titleLarge45 {
@@ -52,7 +52,7 @@ header a:hover {
 
 #landingFrame h4 {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 50px;
+  font-size: 34px;
 }
 
 #landingFrame hr {
@@ -93,10 +93,11 @@ header a:hover {
 .ourPartnersLogos ul {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .ourPartnersLogos ul li {
-  width: 155px;
+  width: 130px;
   height: 120px;
   padding: 0 1em;
   margin-bottom: 0.5em;
@@ -131,6 +132,7 @@ header a:hover {
   font-weight: bold;
   text-align: right;
   padding-right: 3em;
+  width: 300px;
 }
 
 .skillListIndividualItems ul li a {
@@ -140,6 +142,12 @@ header a:hover {
 .skillListIndividualItems ul li a:hover {
   color: #f2da78;
   text-decoration: none;
+}
+
+.columnaUnaTresQuartos {
+  width: 60%;
+  max-width: 620px;
+  float: right;
 }
 
 .columnaUnaTresQuartos .skillsSubColumn2 {
@@ -185,6 +193,13 @@ header a:hover {
   background-image: url("../images/disrupting_education_whatTechCan.png");
   background-size: cover;
   background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.BGCoalition {
+  background-image: url("../images/49826185568_6b8551d4be_k.jpg");
+  background-size: cover;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 
@@ -757,4 +772,35 @@ header a:hover {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.skillsContent {
+  width: 100%;
+
+  min-height: 100vh;
+}
+
+.skillsContent .skillsLeftContent {
+  width: 55%;
+  min-height: 100vh;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.skillsContent .skillsRightContent {
+  width: 44%;
+  min-height: 100vh;
+  display: inline-block;
+  background-color: #4a4949;
+  background-image: url("../images/bg_skillsforLifesection.png");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.skillsLeftText {
+  border: 1px solid orange;
+  width: 740px;
+  float: right;
 }
