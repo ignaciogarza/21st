@@ -371,10 +371,15 @@ header a:hover {
 }
 
 .tileItem {
-  flex: 1 0 25%;
+  flex: 1 0 24%;
   position: relative;
   min-height: 200px;
   min-width: 200px;
+  margin: 0.3em;
+}
+
+.tileItem.andOneFourth {
+  flex: 1 0 30%;
 }
 
 .tileItem h3 {
