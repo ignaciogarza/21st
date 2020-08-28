@@ -94,6 +94,11 @@
   line-height: 1.3;
 }
 
+.buttonGray a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .buttonWhite {
   display: block;
   text-align: left;

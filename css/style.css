@@ -820,33 +820,90 @@ header a:hover {
   padding-bottom: 2em;
 }
 
-.skillsContent {
-  width: 100%;
-
-  min-height: 100vh;
+#block-views-block-news-block-1 ul,
+#block-views-block-news-block-1-2 ul {
+  margin: 0;
+  padding: 0;
 }
 
-.skillsContent .skillsLeftContent {
-  width: 55%;
-  min-height: 100vh;
-  background-color: white;
+#block-views-block-news-block-1 ul li,
+#block-views-block-news-block-1-2 ul li {
   display: inline-block;
+  min-width: 240px;
+  width: 22%;
+  margin: 2em 0.5em;
   vertical-align: top;
 }
 
-.skillsContent .skillsRightContent {
-  width: 44%;
-  min-height: 100vh;
-  display: inline-block;
+#block-views-block-news-block-1 ul li span,
+#block-views-block-news-block-1-2 ul li span {
+  background-color: #363d2a;
+  color: #fff;
+  padding: 0.3em 1em;
+}
+
+#block-views-block-news-block-1 ul li h5,
+#block-views-block-news-block-1-2 ul li h5 {
+  min-height: 130px;
+  margin-top: 0.5em;
+  font-size: 22px;
+  line-height: 1.1 !important;
+}
+
+#block-views-block-news-block-1 ul li p,
+#block-views-block-news-block-1-2 ul li p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+#block-views-block-news-block-1 ul li a,
+#block-views-block-news-block-1-2 ul li a {
+  color: #507ed2;
+  font-weight: bold;
+}
+
+#block-views-block-news-block-1 ul li a:hover,
+#block-views-block-news-block-1-2 ul li a:hover {
+  text-decoration: none;
+}
+
+.bgUniverseSkills {
   background-color: #4a4949;
   background-image: url("../images/bg_skillsforLifesection.png");
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.skillsLeftText {
-  border: 1px solid orange;
-  width: 740px;
-  float: right;
+.skillListWithImage ul {
+  margin: 2em auto 3em auto;
+  padding-left: 0;
+}
+
+.skillListWithImage ul li {
+  display: inline-block;
+  width: 30%;
+  text-transform: uppercase;
+  padding: 0.3em 1em;
+  color: #fff;
+  font-weight: bold;
+}
+
+.skillListWithImage ul li a {
+  color: white;
+}
+
+.skillListWithImage ul li a:hover {
+  text-decoration: none;
+  color: #f2da78;
+}
+
+.skillListWithImage img {
+  width: 100%;
+  max-width: 350px;
+  position: absolute;
+  top: -200px;
+  border-radius: 50%;
+  border: 10px solid white;
 }
