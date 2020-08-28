@@ -239,21 +239,21 @@ header a:hover {
 }
 
 .bgAssessCertifyMainSection {
-  background-image: url("../images/bg_AssessCertifyMainSection.png");
+  background-image: url("../images/bg_assess_Assess_Certify_section.png");
   background-size: cover;
-  background-position: right top;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .bgPartnersMainSection {
-  background-image: url("../images/bg_PartnersMainSection.png");
+  background-image: url("../images/bg_Partner_Mainsection.png");
   background-size: cover;
-  background-position: right top;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .bgContactUsMainSection {
-  background-image: url("../images/bg_ContactUsMainSection.png");
+  background-image: url("../images/contactus_header_01.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
@@ -322,6 +322,15 @@ header a:hover {
   background-repeat: no-repeat;
 }
 
+.bgRegistrationTable {
+  background-image: url("../images/bg_ContactRegistrationTable_section.png");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-height: 75vh;
+  padding: 0;
+}
+
 .bgContactUsBottomSection i,
 .bgContactUsBottomSection a {
   color: #f2da78;
@@ -333,16 +342,20 @@ header a:hover {
   position: relative;
 }
 .contactUs-logosRegistration {
-  width: 80%;
+  display: block;
+  margin: 2em auto;
+  text-align: center;
 }
 
 .contactUs-logosRegistration li {
-  list-style: none;
-  margin-top: 2em;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
 }
 
 .contactUs-logosRegistration img {
   width: 100%;
+  max-width: 400px;
 }
 
 .documentImagesLaunch {
@@ -680,7 +693,7 @@ header a:hover {
 }
 
 .bgFrameSkill05 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_tileAccess.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -689,7 +702,7 @@ header a:hover {
 }
 
 .bgFrameSkill06 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_tileCertify.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -698,7 +711,7 @@ header a:hover {
 }
 
 .bgFrameSkill07 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_tileShowcase.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -707,7 +720,7 @@ header a:hover {
 }
 
 .bgFrameSkill08 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_tileBuild.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -729,35 +742,6 @@ header a:hover {
   margin-right: 0.3em;
 }
 
-.registrationFormContactUs {
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  width: 100%;
-  height: 220px;
-  margin-top: 180px;
-}
-
-.registrationFormContactUs form input[type="email"] {
-  width: 300px;
-  border-radius: 10px;
-  outline-color: #507ed2;
-  border: none;
-  display: block;
-  margin: 0 auto 2em auto;
-  padding: 0.3em;
-}
-
-.registrationFormContactUs form input[type="submit"] {
-  width: 150px;
-  border-radius: 20px;
-  outline-color: #507ed2;
-  border: none;
-  display: block;
-  margin: 0 auto 2em auto;
-  padding: 0.5em 1em;
-  background-color: #f2da78;
-}
-
 .ourPartnersLogosPartnersSection ul li {
   display: inline-block;
   width: 180px;
@@ -771,16 +755,33 @@ header a:hover {
 }
 
 .videoPrincipal {
-  width: 450px;
-  height: 500px;
-  background: red;
+  width: 100%;
+  max-width: 490px;
   position: relative;
+  height: 475px;
 }
 
 .videoPrincipal iframe {
   width: 100%;
   min-width: 400px;
+  max-width: 500px;
   position: absolute;
+  vertical-align: top;
+}
+
+.videoMenu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.videoMenu ul li {
+  display: inline-block;
+  width: 30%;
+  margin: 0em 0.4em 2.2em 0.4em;
+}
+
+.videoMenu ul li img {
+  width: 100%;
 }
 
 .spotlightSection {
@@ -913,4 +914,31 @@ header a:hover {
   left: -40px;
   border-radius: 50%;
   border: 10px solid white;
+}
+
+.registratonTable {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  min-height: 300px;
+}
+
+.registratonTable form input[type="email"] {
+  width: 300px;
+  border-radius: 10px;
+  outline-color: #507ed2;
+  border: none;
+  display: block;
+  margin: 0 auto 2em auto;
+  padding: 0.3em;
+}
+
+.registratonTable form input[type="submit"] {
+  width: 150px;
+  border-radius: 20px;
+  outline-color: #507ed2;
+  border: none;
+  display: block;
+  margin: 0 auto 2em auto;
+  padding: 0.5em 1em;
+  background-color: #f2da78;
 }
