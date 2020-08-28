@@ -197,7 +197,7 @@ header a:hover {
 }
 
 .BGCoalition {
-  background-image: url("../images/49826185568_6b8551d4be_k.jpg");
+  background-image: url("../images/bg_PartnersTheCoalition_web.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
@@ -310,6 +310,13 @@ header a:hover {
 
 .bgAboutLetsWorkTogether {
   background-image: url("../images/bg_about_letswortogether_section.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgPartnersAreYou {
+  background-image: url("../images/bg_PartnersAreYou_web.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -529,8 +536,8 @@ header a:hover {
 
 .publicationFrame {
   flex: 2 0 50%;
-  background-color: #f2f2f2;
 }
+
 .publicationFrame h5 {
   color: #363d4a;
   font-weight: bold;
@@ -637,7 +644,7 @@ header a:hover {
 }
 
 .bgFrameSkill01 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_skillsForLife_Essential.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -646,7 +653,7 @@ header a:hover {
 }
 
 .bgFrameSkill02 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_skillsForLife_Necessary.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -655,7 +662,7 @@ header a:hover {
 }
 
 .bgFrameSkill03 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_skillsForLife_Reusable.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -664,7 +671,7 @@ header a:hover {
 }
 
 .bgFrameSkill04 {
-  background-image: url("../images/bg_test_pruebas_04.png");
+  background-image: url("../images/bg_skillsForLife_Not-specifically-relate.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -900,10 +907,10 @@ header a:hover {
 }
 
 .skillListWithImage img {
-  width: 100%;
-  max-width: 350px;
+  max-width: 520px;
   position: absolute;
   top: -200px;
+  left: -40px;
   border-radius: 50%;
   border: 10px solid white;
 }
