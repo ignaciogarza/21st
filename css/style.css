@@ -784,6 +784,10 @@ header a:hover {
   width: 100%;
 }
 
+.videoMenu ul li:hover {
+  cursor: pointer;
+}
+
 .spotlightSection {
   background-image: url("../images/bg_solutions_spotlight_section.png");
   background-size: cover;
@@ -941,4 +945,47 @@ header a:hover {
   margin: 0 auto 2em auto;
   padding: 0.5em 1em;
   background-color: #f2da78;
+}
+
+.blogFeaturedSections .yellowText {
+  color: #f2da78;
+}
+
+.blogFeaturedItems ul li {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+  border: 1px solid red;
+  border-bottom: 2px solid #507ed2;
+  vertical-align: top;
+}
+
+.blogFeaturedItems ul li img {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 0.5em;
+}
+
+.SkillsSeries .skillSeriesImgBook img {
+  width: 100%;
+}
+
+.SkillsSeries ul {
+  margin: 0;
+  padding: 0;
+}
+
+.SkillsSeries ul li {
+  list-style: none;
+  padding-top: 1em;
+}
+
+.SkillsSeries ul li img {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 0.5em;
+  border: 3px solid #d1d3d4;
+  background-color: #d1d3d4;
 }
