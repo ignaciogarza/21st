@@ -1,3 +1,55 @@
+@font-face {
+  font-family: GothamNarrow-Bold;
+  src: url(../fonts/gotham/gotham_narrow/GothamNarrow-Bold.woff);
+  src: url(../fonts/gotham/gotham_narrow/GothamNarrow-Bold.otf);
+}
+
+@font-face {
+  font-family: GothamNarrow-Book;
+  src: url(../fonts/gotham/gotham_narrow/GothamNarrow-Book.otf);
+}
+
+@font-face {
+  font-family: GothamNarrow-Light;
+  src: url(../fonts/gotham/gotham_narrow/GothamNarrow-Light.otf);
+}
+
+@font-face {
+  font-family: GothamNarrow-Medium;
+  src: url(../fonts/gotham/gotham_narrow/GothamNarrow-Medium.otf);
+}
+
+@font-face {
+  font-family: GothamHTF;
+  src: url(../fonts/gotham/gothamHTF/GothamHTF-Book.ttf);
+  src: url(../fonts/gotham/gothamHTF/GothamHTF-Book.woff);
+}
+
+body,
+html {
+  font-family: GothamNarrow-Book, sans-serif;
+}
+
+.testFontGothamHTF {
+  font-family: GothamHTF;
+}
+
+.testFontGothamNarrow {
+  font-family: GothamNarrow-Bold;
+}
+
+.testFontGothamNarrowMedium {
+  font-family: GothamNarrow-Medium;
+}
+
+.testFontGothamNarrowLight {
+  font-family: GothamNarrow-Light;
+}
+
+.testFontGothamNarrowBook {
+  font-family: GothamNarrow-Book;
+}
+
 .titleLarge30 {
   font-size: 20px;
   line-height: 1.2 !important;
@@ -11,14 +63,17 @@
 .titleLarge40 {
   font-size: 34px;
   line-height: 1.2 !important;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .titleLarge45 {
   font-size: 34px;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .titleLarge60 {
   font-size: 50px;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 header {
@@ -48,11 +103,13 @@ header a:hover {
 
 #landingFrame h1 {
   font-size: 60px;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 #landingFrame h4 {
   color: rgba(255, 255, 255, 0.6);
   font-size: 34px;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 #landingFrame hr {
@@ -68,11 +125,13 @@ header a:hover {
 .overviewFrame h3 {
   line-height: 1.5;
   font-weight: bold;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .overviewFrame h6 {
   letter-spacing: 2px;
   font-weight: bold;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .overviewFrame button {
@@ -215,6 +274,7 @@ header a:hover {
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgDisruptingEducationMainSection {
@@ -222,6 +282,7 @@ header a:hover {
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgSolutionsMainSection {
@@ -229,6 +290,7 @@ header a:hover {
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgSkillsForLifeMainSection {
@@ -236,6 +298,7 @@ header a:hover {
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgAssessCertifyMainSection {
@@ -243,6 +306,7 @@ header a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgPartnersMainSection {
@@ -250,6 +314,7 @@ header a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgContactUsMainSection {
@@ -257,6 +322,7 @@ header a:hover {
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgLaunchEventInReponse {
@@ -271,6 +337,7 @@ header a:hover {
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
+  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .bgHomeJoinTheInitiative {
