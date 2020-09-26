@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Gotham-Book;
+  src: url(../fonts/gotham/gotham/Gotham-Book.woff);
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../fonts/gotham/gotham/Gotham-Bold.woff);
+}
+
+body,
+html {
+  font-family: Gotham-book, sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.vh25 {
+  min-height: 25vh;
+}
+
+.vh50 {
+  min-height: 50vh;
+}
+
+.vh75 {
+  min-height: 75vh;
+}
+
+.vh100 {
+  min-height: 100vh;
+}
+
+.titleBold {
+  font-family: Gotham-bold;
+  color: #363d4a;
+}
+
+.btnGrey {
+  display: block;
+  margin: 2em auto;
+  width: 231px;
+  text-align: center;
+}
+
+.btnGrey a {
+  display: block;
+  color: white;
+  background-color: #363d4a;
+  padding: 15px;
+  border-radius: 31px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.btnGrey a:hover {
+  text-decoration: none;
+}
+
+.btnWhite {
+  display: block;
+  margin: 2em auto;
+  width: 231px;
+  text-align: center;
+}
+.btnWhite a {
+  display: block;
+  color: #363d4a;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 31px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.btnWhite a:hover {
+  text-decoration: none;
+}
+
+#landingFrame h1 {
+  font-size: 130px;
+  font-weight: bold;
+  font-family: Gotham-bold;
+}
+
+.upperTitle {
+  font-weight: bold;
+  font-family: Gotham-bold;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.3);
+  letter-spacing: 2px;
+  margin-left: 150px;
+  padding-top: 40px;
+}
+
+.upperTitle.whiteBg {
+  color: #e4e4e4;
+}
+
+.upperTitle.mustardBg {
+  color: rgba(0, 0, 0, 0.2);
+  margin-left: 160px;
+}
+
+#landingFrame h4 {
+  letter-spacing: 6px;
+}
+
+#landingFrame hr {
+  width: 380px;
+  color: white;
+  background-color: white;
+}
+
+.bgIndexMainSection {
+  background-image: url("../images/bg_indexMainSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgSkillsForLifeMainSection {
+  background-image: url("../images/bg_SkillsForLifeMainSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgPartnersMainSection {
+  background-image: url("../images/bg_Partner_Mainsection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgContactUsBottomSection {
+  background-image: url("../images/bg_contactus_section_bottom.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.itemSkills {
+  margin-left: 50px;
+  vertical-align: top;
+  font-weight: 800;
+}
+
+.itemSkills img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.itemSkills p {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itemSkills span {
+  font-size: 25px;
+}
+
+.disruptingImage {
+  font-family: Gotham-bold;
+  color: #363d4a;
+}
+.disruptingImage img {
+  width: 250px;
+}
+
+.bgmustard {
+  background-color: #f2da78;
+}

@@ -2,6 +2,21 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Gotham-Book;
+  src: url(../fonts/gotham/gotham/Gotham-Book.woff);
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../fonts/gotham/gotham/Gotham-Bold.woff);
+}
+
+body,
+html {
+  font-family: Gotham-book, sans-serif;
+}
+
 .container.vh25 {
   min-height: 25vh;
 }
@@ -46,6 +61,7 @@
 .container .columna4 h3 {
   line-height: 1;
   letter-spacing: 1px;
+  font-family: Gotham-bold;
 }
 
 .container .columna1 h5,
@@ -90,8 +106,10 @@
   padding: 0.8em 1.5em;
   border-radius: 30px;
   font-size: 16px;
-  min-width: 200px;
+  display: block;
   line-height: 1.3;
+  margin: 1em auto;
+  width: 160px;
 }
 
 .buttonGray a:hover {
@@ -183,7 +201,6 @@
   font-weight: bold;
   color: #363d4a;
   line-height: 1 !important;
-  font-family: GothamNarrow-Medium, sans-serif;
 }
 
 .titleOverTitle h6 {

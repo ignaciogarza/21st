@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Gotham-Book;
+  src: url(../fonts/gotham/gotham/Gotham-Book.woff);
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../fonts/gotham/gotham/Gotham-Bold.woff);
+}
+
+body,
+html {
+  font-family: Gotham-book, sans-serif;
+}
