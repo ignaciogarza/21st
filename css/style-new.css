@@ -42,6 +42,18 @@ p {
   color: #363d4a;
 }
 
+#headerSection h1 {
+  font-size: 92px;
+  font-family: Gotham-bold;
+}
+
+#headerSection h2 {
+  font-size: 50px;
+  font-family: Gotham-bold;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+
 .btnGrey {
   display: block;
   margin: 2em auto;
@@ -80,6 +92,29 @@ p {
 }
 
 .btnWhite a:hover {
+  text-decoration: none;
+}
+.btnTransparent {
+  display: block;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.btnTransparent a {
+  display: inline-block;
+  color: white;
+  background-color: none;
+  padding: 15px;
+  border-radius: 31px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  margin-right: 0.5em;
+  min-width: 120px;
+  text-align: center;
+}
+
+.btnTransparent a:hover {
   text-decoration: none;
 }
 
@@ -146,6 +181,40 @@ p {
   background-repeat: no-repeat;
 }
 
+.bgContactUsBottomSectionWhite {
+  background-image: url("../images/bg_contactus_white_section_bottom.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgAboutUsHeaderMainSection {
+  background-image: url("../images/bg_about_us_HeaderSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgFutureSection {
+  background-image: url("../images/bg_skillsforLifesection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgAboutUsPartnersSections {
+  background-image: url("../images/bg_aboutUsOurPartnersSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgOurStorySection {
+  background-image: url("../images/bg_aboutUsOurStorySection.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
 .itemSkills {
   margin-left: 50px;
   vertical-align: top;
@@ -154,7 +223,7 @@ p {
 
 .itemSkills img {
   width: 60px;
-  height: 60px;
+
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
@@ -179,4 +248,73 @@ p {
 
 .bgmustard {
   background-color: #f2da78;
+}
+
+.contactusBottom i {
+  font-size: 25px;
+  padding: 5px 15px;
+}
+
+.subMenu {
+  background-color: #f5f5f5;
+}
+
+.subMenu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.subMenu ul li {
+  display: inline-block;
+}
+
+.subMenu ul li a {
+  color: #cfcfcf;
+  font-family: Gotham-bold;
+  padding-right: 1.5em;
+}
+
+.subMenu ul li a:hover {
+  text-decoration: none;
+}
+
+.subMenu ul li a.selected {
+  color: black;
+}
+
+.ourApproachImage {
+  max-width: 1000px;
+  width: 100%;
+  display: block;
+  margin: 1em auto;
+}
+
+.ourApproachImage img {
+  width: 100%;
+}
+
+.videosLaunchEvent ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.videosLaunchEvent ul li {
+  display: inline-block;
+  width: 20%;
+  margin: 1em;
+  vertical-align: top;
+  text-align: left;
+}
+
+.videosLaunchEvent ul li img {
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.videosLaunchEvent ul li p {
+  font-weight: bold;
+  font-family: Gotham-bold;
 }
