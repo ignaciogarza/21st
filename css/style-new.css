@@ -25,6 +25,10 @@ p {
   min-height: 25vh;
 }
 
+.vh40 {
+  min-height: 40vh;
+}
+
 .vh50 {
   min-height: 50vh;
 }
@@ -40,6 +44,34 @@ p {
 .titleBold {
   font-family: Gotham-bold;
   color: #363d4a;
+}
+
+header {
+  padding-top: 10px;
+}
+
+header .logo21 {
+  width: 200px;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+header .logo21 img {
+  width: 120%;
+  margin-top: 10px;
+}
+
+header ul li a {
+  color: white;
+  font-family: Gotham-bold;
+  font-size: 14px;
+}
+
+header ul li a:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
 }
 
 #headerSection h1 {
@@ -160,7 +192,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.bgSkillsForLifeMainSection {
+.bgSkillsForLifeSection {
   background-image: url("../images/bg_SkillsForLifeMainSection.jpg");
   background-size: cover;
   background-position: center center;
@@ -214,6 +246,105 @@ p {
   background-position: top center;
   background-repeat: no-repeat;
 }
+.bgSkillsForLifeMainSection {
+  background-image: url("../images/bg_SkillsForLifeMainSection_header.jpg");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.bgSkillListSec {
+  background-image: url("../images/bg_skillListSection.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.bgDisruptingEducationMainSection {
+  background-image: url("../images/bg_DisruptingEducation_mainSection.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.bgTechAndEdSection {
+  background-image: url("../images/bg_techanded_section.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.bgWeBelieveIn {
+  background-image: url("../images/bg_weBeliveIn_Section.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.bgContactUsHeaderSection {
+  background-image: url("../images/bg_contactus_HeaderSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgMediaHeaderSection {
+  background-image: url("../images/bg_media_HeaderSection.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.bgSolutionsInterventions {
+  background-image: url("../images/bg_solutions_inter_Section.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgHeaderSolutions {
+  background-image: url("../images/bg_solutions_HeaderSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgSolutionsSchools {
+  background-image: url("../images/bg_solutions_schools_Section.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgSolutionsSpotlight {
+  background-image: url("../images/bg_solutions_spotlight_Section.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgPartnersHeaderSection {
+  background-image: url("../images/bg_partners_HeaderSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgLetsWorkTogether {
+  background-image: url("../images/bg_WokrTogetherSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgTheCoalitionSection {
+  background-image: url("../images/bg_theCoalition_Section.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgAreYouAnActor {
+  background-image: url("../images/bg_areyouanActor_Section.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgHeaderAssess {
+  background-image: url("../images/bg_assess_HeaderSection.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
 .itemSkills {
   margin-left: 50px;
@@ -253,6 +384,10 @@ p {
 .contactusBottom i {
   font-size: 25px;
   padding: 5px 15px;
+}
+
+.contactusBottom a:hover {
+  text-decoration: none;
 }
 
 .subMenu {
@@ -317,4 +452,69 @@ p {
 .videosLaunchEvent ul li p {
   font-weight: bold;
   font-family: Gotham-bold;
+}
+
+.modal-body {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.skillItemWord {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Gotham-bold;
+}
+
+.videoPrincipal {
+  width: 100%;
+  max-width: 490px;
+  position: relative;
+  height: 475px;
+}
+
+.videoPrincipal iframe {
+  width: 100%;
+  min-width: 400px;
+  max-width: 500px;
+  position: absolute;
+  vertical-align: top;
+}
+
+.videoMenu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.videoMenu ul li {
+  display: inline-block;
+  width: 162px;
+  margin: 0em 0.4em 2.2em 0.4em;
+}
+
+.videoMenu ul li img {
+  width: 100%;
+}
+
+.videoMenu ul li:hover {
+  cursor: pointer;
+}
+
+.skillsIcons {
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.skillsIcons img {
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.skillsIcons p {
+  display: inline-block;
+}
+
+.openCallItem img {
+  width: 100%;
 }
