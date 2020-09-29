@@ -13,8 +13,10 @@
 }
 
 body,
-html {
-  font-family: Gotham-book, sans-serif;
+html,
+.container-fluid,
+.container {
+  font-family: Gotham-Book, sans-serif;
 }
 
 p {
@@ -59,6 +61,11 @@ header .logo21 {
 header .logo21 img {
   width: 120%;
   margin-top: 10px;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0.5em;
 }
 
 header ul li a {
@@ -305,6 +312,12 @@ header ul li a:hover {
 
 .bgSolutionsSchools {
   background-image: url("../images/bg_solutions_schools_Section.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgLaborForce {
+  background-image: url("../images/bg_laborForce_Section.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
