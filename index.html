@@ -23,7 +23,7 @@
   <body>
     <!-- INICIO 1 columnas altas  50vh-->
     <div class="container-fluid bgIndexMainSection text-white">
-      <header>
+      <header class="mainNav" id="navMain">
         <div class="container">
           <ul>
             <div class="logo21">
@@ -75,6 +75,12 @@
     <!-- FIN 1 columnas altas 75vh-->
 
     <!-- INICIO 1 columna 25vh -->
+    <div class="montanitaCurve">
+      <a href="#skillsSec">
+        <img src="/themes/twentyfirstcenturyskills/images/icon-montanacurve2.svg">
+      </a>
+    </div>
+
     <div
       class="container vh25 text-center d-flex justify-content-center align-items-center mb-5 mt-5"
     >
@@ -91,7 +97,7 @@
     <!-- FIN 1 columna 25vh -->
 
     <!-- INICIO 1 columna 100vh -->
-    <div class="container-fluid vh100 bgSkillsForLifeSection mt-5 mb-5 pt-5">
+    <div class="container-fluid vh100 bgSkillsForLifeSection mt-5 mb-5 pt-5" id="skillsSec">
       <h2 class="upperTitle">SKILLS FOR LIFE</h2>
       <div class="row skillsforLife">
         <div class="col-8 offset-1 text-white p-5">
@@ -339,5 +345,28 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+
+      const menuBackground = document.getElementById("navMain");
+      const menuLogo = document.getElementById("logoMain");
+
+      window.addEventListener("scroll", () => {
+        const scrolled = window.scrollY;
+        if(scrolled>100) {
+          menuBackground.style.backgroundColor = "rgba(54, 61, 74, 0.85)";
+          menuLogo.style.width = "140px";
+         
+        }
+
+        if(scrolled<100) {
+          menuBackground.style.backgroundColor = "rgba(0,0,0,0)";
+          menuLogo.style.width = "200px";
+         
+        }
+
+
+      });
+    </script>
   </body>
 </html>

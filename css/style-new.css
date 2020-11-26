@@ -531,3 +531,137 @@ header ul li a:hover {
 .openCallItem img {
   width: 100%;
 }
+
+.itemsSkilsForLifeSeries {
+  width: 500px;
+  display: inline-block;
+  text-align: left;
+}
+
+.itemsSkilsForLifeSeries a {
+  text-decoration: none;
+}
+
+.itemsSkilsForLifeSeries ul {
+  margin: 0;
+  padding: 0;
+}
+
+.itemsSkilsForLifeSeries ul li {
+  display: block;
+  margin-top: 10px;
+}
+
+.itemsSkilsForLifeSeries .skillSeriesImgBook {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itemsSkilsForLifeSeries .skillSeriesImgBook p {
+  font-size: 14px;
+}
+.itemsSkilsForLifeSeries .authorsFrame {
+  width: 290px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itemsSkilsForLifeSeries .skillSeriesImgBook img {
+  width: 100%;
+}
+
+.itemsSkilsForLifeSeries .skillsSeriesAuthor p {
+  font-size: 14px;
+}
+
+.itemsSkilsForLifeSeries .skillsSeriesAuthor img {
+  width: 80px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.itemsSkilsForLifeSeries .skillsSeriesAuthor .profilePic {
+  width: 80px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.itemsSkilsForLifeSeries .skillsSeriesAuthor .profileInfo {
+  display: inline-block;
+  width: 60%;
+}
+
+.montanitaCurve {
+  background-image: url(../images/icon-montanacurve2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  position: relative;
+  top: -35px;
+}
+
+.blogItem {
+  width: 300px;
+  border-bottom: 1px solid #507ed2;
+  padding-bottom: 1em;
+  display: inline-block;
+  margin: 1em;
+  min-height: 180px;
+}
+
+.blogItem .authorsArea {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  padding-right: 0.5em;
+}
+
+.blogItem .authorsArea ul {
+  margin: 0;
+  padding: 0;
+}
+
+.blogItem .authorsArea ul li {
+  display: inline-block;
+  width: 65px;
+}
+
+.blogItem .authorsArea ul li p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.blogItem .authorsArea ul li:nth-child(2) {
+  position: relative;
+  left: -15px;
+}
+
+.blogItem .authorsArea ul li img {
+  width: 100%;
+}
+
+.blogItem .blogTitle {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blogItem .blogTitle p {
+  font-size: 14px;
+}
+
+.blogItem .blogTitle p a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.blogItem .blogTitle span {
+  font-size: 14px;
+  color: #507ed2;
+}
